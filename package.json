@@ -1,0 +1,32 @@
+{
+  "name": "fkit",
+  "description": "Tools based fantasyland",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/fantasy-fkit/fkit.git"
+  },
+  "keywords": [
+    "fantasyland",
+    "fantasyfkit",
+    "fkit",
+    "option",
+    "seqs",
+    "monad"
+  ],
+  "author": "Klim Malgin",
+  "license": "MIT",
+  "dependencies": {
+    "map-object": "git://github.com/KlimMalgin/map-object.git",
+    "fantasy-fkit-common": "git://github.com/fantasy-fkit/common.git",
+    "fantasy-fkit-conditions": "git://github.com/fantasy-fkit/conditions.git",
+    "fantasy-options": "git://github.com/fantasy-fkit/fantasy-options.git#v0.1.3"
+  },
+  "devDependencies": {
+
+  },
+  "scripts": {
+      
+  },
+  "main": "index.js",
+  "version": "0.0.1"
+}
