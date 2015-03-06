@@ -2,8 +2,8 @@
 
 var Option = require('fantasy-options').Option,
     mapObject = require('map-object'),
-    common = require('fantasy-fkit-common'),
-    conditions = require('fantasy-fkit-conditions'),
+    common = require('common'),
+    conditions = require('conditions'),
 
     mixin = function (target, source) {
         mapObject(source, function(_, k) {
